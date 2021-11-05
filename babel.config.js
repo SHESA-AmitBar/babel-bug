@@ -2,7 +2,7 @@ export default {
   presets: [
     ["@babel/preset-env", {
       targets: {
-        node: "6.14.2" // version used in SRE
+        node: "6.14.2"
       }
     }],
   ],
