@@ -1,0 +1,29 @@
+{
+  "name": "babel-bug",
+  "version": "1.0.0",
+  "description": "bug example for babel when transpiling to env node v6.14.2 (and similar older node versions)",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SHESA-AmitBar/babel-bug.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SHESA-AmitBar/babel-bug/issues"
+  },
+  "homepage": "https://github.com/SHESA-AmitBar/babel-bug#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.16.0",
+    "@babel/core": "^7.16.0",
+    "@babel/preset-env": "^7.16.0",
+    "babel-plugin-transform-import-meta": "^2.1.0"
+  },
+  "dependencies": {
+    "lowdb": "^3.0.0"
+  }
+}
